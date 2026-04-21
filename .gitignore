@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Ambientes virtuais
+venv/
+env/
+.env
+
+# Credenciais e tokens
+*.env
+secrets.py
+
+# Logs
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db
