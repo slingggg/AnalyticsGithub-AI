@@ -47,7 +47,7 @@ git clone https://github.com/davidi0358/analytics-github-bot.git
 cd analytics-github-bot
 ```
 
-2. Instale as dependências python telegram e groq requests
+2. Instale as dependências
 ```bash
 pip install python-telegram-bot groq requests urllib3
 ```
@@ -73,7 +73,7 @@ No Telegram, encontre seu bot e envie:
 /start
 ```
 ```
-/repo nome de usuario/nome do repositorio
+/repo nome de usuario/nome do repositório
 ```
 
 ## 💡 Exemplo:
@@ -81,4 +81,18 @@ No Telegram, encontre seu bot e envie:
 ```
 /repo davidi0358/CodeAnalytics-AI
 ```
-## ⚠️ Observação  Este bot funciona apenas enquanto o código estiver rodando localmente no terminal. Para mantê-lo online 24/7, é necessário hospedá-lo em um servidor.
+## ⚠️ Este bot funciona apenas enquanto o código estiver rodando localmente no terminal. Para mantê-lo online 24/7, é necessário hospedá-lo em um servidor.
+
+> **Segurança:** Nunca compartilhe seus tokens e chaves de API publicamente.
+> Cada usuário deve criar e utilizar suas **próprias credenciais**.
+> O nome do bot pode ser personalizado durante a criação no [@BotFather](https://t.me/BotFather).
+
+## 👤 Autor
+
+Feito por **David**
+
+[![GitHub](https://img.shields.io/badge/GitHub-davidi0358-181717?style=flat&logo=github)](https://github.com/davidi0358)
+[![Discord](https://img.shields.io/badge/Discord-5865F2?style=flat&logo=discord&logoColor=white)](https://discord.com/users/753736601523454063)
+
+---
+⭐ Se este projeto te ajudou, deixe uma estrela no repositório! **Obrigado**
