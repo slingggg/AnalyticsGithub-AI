@@ -1,18 +1,18 @@
-# CodeAnalytics-AI
-## ⚠️ Observação  Este bot funciona apenas enquanto o script estiver rodando localmente no terminal. Para mantê-lo online 24/7, é necessário eu hospedá-lo em um servidor, pretendo fazer isso futuramente.
-
-# 🤖 GitHub Analytics Bot
+# 🤖 CodeAnalytics-AI
 
 Bot do Telegram que analisa repositórios do GitHub usando Inteligência Artificial e retorna um relatório completo com métricas e insights do projeto.
 
-## 📸 Demo
+## 📸 Preview
 
-![Demo do bot](<img width="1224" height="915" alt="Captura_de_tela_20260421_165755" src="https://github.com/user-attachments/assets/c60f340a-a730-4729-9aa1-0c914dc1d6fb" />
-)
+<p align="center">
+  <img width="1224" height="730" src="https://github.com/user-attachments/assets/dff6f36a-a2bb-4866-a25e-017478d4d749" />
+  <br><br>
+  <img width="1224" height="915" src="https://github.com/user-attachments/assets/8fea8f47-97c6-4f06-b684-75efc214dc18" />
+</p>
 
 ## 💡 Sobre o projeto
 
-O GitHub Analytics Bot permite analisar qualquer repositório público do GitHub diretamente pelo Telegram. Basta enviar o comando `/repo` com o nome do repositório e o bot busca as métricas na API do GitHub e gera uma análise completa usando o modelo Llama 3.3 da Groq.
+O GitHub Analytics Bot permite analisar qualquer repositório público do GitHub diretamente pelo Telegram. Basta enviar o comando `/repo` com o nome do repositório e o bot busca as métricas na API do GitHub, por exemplo /repo nome de usuario/nome do repositorio, e assim gera uma análise completa usando o modelo Llama 3.3 da Groq.
 
 ## ✨ Funcionalidades
 
@@ -47,7 +47,7 @@ git clone https://github.com/davidi0358/analytics-github-bot.git
 cd analytics-github-bot
 ```
 
-2. Instale as dependências
+2. Instale as dependências python telegram e groq requests
 ```bash
 pip install python-telegram-bot groq requests urllib3
 ```
@@ -56,11 +56,11 @@ pip install python-telegram-bot groq requests urllib3
 
 | Variável | Onde obter |
 |---|---|
-| `TELEGRAM_TOKEN` | [@BotFather](https://t.me/BotFather) no Telegram |
-| `GROQ_API_KEY` | [console.groq.com](https://console.groq.com) |
-| `GITHUB_TOKEN` | [github.com/settings/tokens](https://github.com/settings/tokens) |
+| `TELEGRAM_TOKEN` | Pesquise [@BotFather](https://t.me/BotFather) no Telegram |
+| `GROQ_API_KEY` | Crie uma API Key: [console.groq.com](https://console.groq.com) |
+| `GITHUB_TOKEN` | Crie um Token: [github.com/settings/tokens](https://github.com/settings/tokens) |
 
-4. Rode o bot
+4. Rode o bot no terminal
 ```bash
 python3 analytics_github.py
 ```
@@ -73,8 +73,12 @@ No Telegram, encontre seu bot e envie:
 /start
 ```
 ```
-/repo torvalds/linux
+/repo nome de usuario/nome do repositorio
 ```
+
+## 💡 Exemplo:
+
 ```
-/repo microsoft/vscode
+/repo davidi0358/CodeAnalytics-AI
 ```
+## ⚠️ Observação  Este bot funciona apenas enquanto o código estiver rodando localmente no terminal. Para mantê-lo online 24/7, é necessário hospedá-lo em um servidor.
