@@ -7,7 +7,8 @@ Bot do Telegram que analisa repositórios do GitHub usando Inteligência Artific
 
 ## 📸 Demo
 
-![Demo do bot](<img width="1224" height="915" alt="portfoliogithubbot" src="https://github.com/user-attachments/assets/63dde44a-2d6c-424e-9e16-cbbb4641732e" />)
+![Demo do bot](<img width="1224" height="915" alt="Captura_de_tela_20260421_165755" src="https://github.com/user-attachments/assets/c60f340a-a730-4729-9aa1-0c914dc1d6fb" />
+)
 
 ## 💡 Sobre o projeto
 
