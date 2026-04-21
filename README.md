@@ -89,7 +89,7 @@ No Telegram, encontre seu bot e envie:
 
 ## 👤 Autor
 
-Feito por **David**
+Feito por **david0358**
 
 [![GitHub](https://img.shields.io/badge/GitHub-davidi0358-181717?style=flat&logo=github)](https://github.com/davidi0358)
 [![Discord](https://img.shields.io/badge/Discord-5865F2?style=flat&logo=discord&logoColor=white)](https://discord.com/users/753736601523454063)
